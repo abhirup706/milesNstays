@@ -1,0 +1,17 @@
+.error{
+    color: red;
+    display: none;
+}
+
+.modal-header{
+    background-color: color(srgb 0.0495 0.4301 0.9918) !important;
+}
+
+.modal-header button{
+    width: 50rem;
+    margin: -1%;
+}
+
+.selected-button{
+    background-color: rgb(25, 9, 171) !important;
+}

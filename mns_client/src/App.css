@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: montserrat, arial, verdana;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 90%;
+  height: 100%;
+  margin:"10%";
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container .header {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.form-container .body {
+  flex: 60%;
+}
+
+.form-container .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container .footer button {
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+  background-color: #086199;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  margin: 5px;
+}
+
+.sign-up-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.personal-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.personal-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+/* home info container */
+.home-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .home-info-container input {
+  margin: 0px;
+  width: 100%;
+  height: 10%;
+  padding-left: 5px;
+  font-size: 20px;
+} */
+
+/* property address container */
+.prop-addr-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .prop-addr-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+} */
+
+
+
+/* .image-upload-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+} */
+
+/* property price container */
+.price-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .price-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+} */
+
+/* house rules container */
+.house-rules-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .house-rules-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+} */
+
+/* guest requirements container */
+.guest-req-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .guest-req-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+} */
+
+/* PROGRESS BAR */
+.progressbar {
+  width: 90%;
+  height: 10px;
+  background-color: white;
+  margin-bottom:2%;
+  margin-top:2%
+}
+
+.progressbar div {
+  width: 16.6%;
+  height: 100%;
+  background-color: #538f13;
+}
+
+.other-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-info-container input {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 3px solid rgb(98, 0, 255);
+}
+
+/* image upload container */
+.image-upload-container {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .image-upload-container img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+} */
+
+.image-upload-container .file-input {
+  display: inline-block;
+  vertical-align: middle;
+}
+#welcome-div {
+	background: url(../public/img/home.jpg) no-repeat center fixed;
+	height: 100vh;
+	background-size: cover;
+  background-position: center;
+	/* margin-bottom: 0; */
+	/* border-radius: 0; */
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+#search-card {
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 0px;
+	top: 35%;
+	opacity: .8;
+	width: 80%;
+	padding: 10px;
+}
+
+#card-search {
+	background-color: #f58b5d;
+	width: 100%;
+	color: #fff;
+}
+
+#card-search:hover {
+	color: #000;
+}
+
+@media (min-width: 768px) {
+	#search-card {
+		width: 30%;
+		top: 35%;
+	}
+}

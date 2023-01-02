@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "6396182bfae6343141c05700"
+  },
+  "start_date": {
+    "$date": {
+      "$numberLong": "1671840000000"
+    }
+  },
+  "end_date": {
+    "$date": {
+      "$numberLong": "1672272000000"
+    }
+  },
+  "status": "pending",
+  "property_name": "mi casa",
+  "host_id": {
+    "$oid": "0000007bfc540ba8b7d39209"
+  },
+  "guest_id": {
+    "$oid": "0000007bfc540ba8b7d39209"
+  },
+  "property_id": {
+    "$oid": "63928ca94050f22ddb2e03a7"
+  }
+},{
+  "_id": {
+    "$oid": "639618bcfae6343141c05705"
+  },
+  "start_date": {
+    "$date": {
+      "$numberLong": "1669852800000"
+    }
+  },
+  "end_date": {
+    "$date": {
+      "$numberLong": "1670976000000"
+    }
+  },
+  "status": "pending",
+  "property_name": "mi casa",
+  "host_id": {
+    "$oid": "0000007bfc540ba8b7d39209"
+  },
+  "guest_id": {
+    "$oid": "0000007bfc540ba8b7d39209"
+  },
+  "property_id": {
+    "$oid": "63928ca94050f22ddb2e03a7"
+  }
+},{
+  "_id": {
+    "$oid": "639618cffae6343141c05708"
+  },
+  "start_date": {
+    "$date": {
+      "$numberLong": "1669852800000"
+    }
+  },
+  "end_date": {
+    "$date": {
+      "$numberLong": "1674691200000"
+    }
+  },
+  "status": "pending",
+  "property_name": "mi casa",
+  "host_id": {
+    "$oid": "0000007bfc540ba8b7d39209"
+  },
+  "guest_id": {
+    "$oid": "0000007bfc540ba8b7d39209"
+  },
+  "property_id": {
+    "$oid": "63928ca94050f22ddb2e03a7"
+  }
+}]
